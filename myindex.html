@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <title>Portfolio | Sai Krishna</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Sai</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a target="_blank" href="https://drive.google.com/file/d/166q97pN0cLakQXJCxpShPmOTgry3fvf7/view?usp=sharing"><button class="btn">Download <i class="uil uil-file-alt"></i></button></a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Sai Krishna</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span>
+            </div>
+            <div class="featured-text-info">
+                <p>Frontend developer with a passion for creating visually stunning
+                   and user-friendly websites.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <a target="_blank" href="https://drive.google.com/file/d/166q97pN0cLakQXJCxpShPmOTgry3fvf7/view?usp=sharing"><button class="btn">Download <i class="uil uil-file-alt"></i></button></a>
+            </div>
+            <div class="social_icons">
+                <a target="_blank" href="https://www.linkedin.com/in/sai-krishna-raparthi-a5a058234/"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                <a target="_blank" href="https://github.com/sai-krishna-raparthi"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/sai.jpeg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                       frameworks and libraries,which allows me to implement interactive features.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="slide-nav top-header">
+            <button id="webdevbutton" class="active" href="#web-dev">Web Development</button>
+            <button id="pybutton" href="#python">Python</button>
+          </div>
+            <div class="projects-container">
+                <div id="web-dev">
+                    <div class="card">
+                        <img class="web-dev-images" src="assets/images/to do list.png">
+                        <h4>To-Do-List</h4>
+                        <p class="projects-p">This project is a responsive To-Do List app using HTML, CSS, and JavaScript, with localStorage integration for persistent task management.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://sai-krishna-raparthi.github.io/To-do-list/"><button class="btn live-demo-btn">Live Demo</button></a>
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/To-do-list"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="web-dev-images" src="assets/images/pomodoro timer.png">
+                        <h4>Pomodoro Timer</h4>
+                        <p class="projects-p">This Pomodoro Timer web app offers customizable timer modes to optimize work and break intervals.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://sai-krishna-raparthi.github.io/pomodoro-timer-anime-style.io/"><button class="btn live-demo-btn">Live Demo</button></a>
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/pomodoro-timer-anime-style.io"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="web-dev-images" src="assets/images/weather app.png">
+                        <h4>Weather App</h4>
+                        <p class="projects-p">This weather project utilizes HTML, CSS, and JavaScript to display current weather conditions and forecasts using the OpenWeather API.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://sai-krishna-raparthi.github.io/Weather-app/"><button class="btn live-demo-btn">Live Demo</button></a>
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Weather-app"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="web-dev-images" src="assets/images/image search engine.png">
+                        <h4>Image Search Engine App</h4>
+                        <p class="projects-p">This is a basic image search engine that uses the Unsplash API for keyword-based searches. It includes input forms and a "show more" button from uiverse.io.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://sai-krishna-raparthi.github.io/Image-search-engine/"><button class="btn live-demo-btn">Live Demo</button></a>
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Image-search-engine"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="web-dev-images" src="assets/images/random meme generator.png">
+                        <h4>Meme Generator</h4>
+                        <p class="projects-p">This random meme generator uses HTML, CSS, and JavaScript along with a meme API to fetch and display humorous memes dynamically.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://sai-krishna-raparthi.github.io/Meme-Generator/"><button class="btn live-demo-btn">Live Demo</button></a>
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Meme-Generator"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="web-dev-images" src="assets/images/random password.png">
+                        <h4>Random Password Generator</h4>
+                        <p class="projects-p">This project is a random password generator created with HTML and CSS, designed to generate secure and unique passwords on demand.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Random-password-generator"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+
+                    <div class="show-more">
+                        <img class="web-dev-images" src="assets/images/analog clock.png">
+                        <h4>Analog clock</h4>
+                        <p class="projects-p">This project features an analog providing a visually appealing and functional way to display real-time hours, minutes, and seconds on web pages.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Clock-program-using-javascript/tree/main/analog%20clock"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <img class="web-dev-images" src="assets/images/digital clock.png">
+                        <h4>Digital clock</h4>
+                        <p class="projects-p">This project displays a digital clock, showing real-time hours, minutes, and seconds with precision and clarity for efficient timekeeping on web interfaces.</p>
+                        <div class="button-container-1">
+                            <a target="_blank"  href="https://github.com/sai-krishna-raparthi/Clock-program-using-javascript/tree/main/digital%20clock"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <img class="web-dev-images" src="assets/images/cursor animation.png">
+                        <h4>Cursor Animation</h4>
+                        <p class="projects-p">This project creatively enhances user interactions by animating the cursor, offering dynamic effects like trails enriching the visual and interactive elements of web interfaces.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/cursor-animation"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <img class="web-dev-images" src="assets/images/pop up alert.png">
+                        <h4>Pop up Alert</h4>
+                        <p class="projects-p">This project incorporates pop-up alerts to notify users of important messages or actions within the web application, ensuring timely communication and user engagement.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Popup-feature"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <img class="web-dev-images" src="assets/images/password toggle.png">
+                        <h4>Password Toggle</h4>
+                        <p class="projects-p">This project enables users to toggle password visibility in input fields using intuitive icons, enhancing usability and security for login and registration forms.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Password-Show-or-Hide"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <img class="web-dev-images" src="assets/images/drag and drop.png">
+                        <h4>Drag and Drop</h4>
+                        <p class="projects-p">This project facilitates drag-and-drop functionality for effortless reordering within web interfaces, enhancing user interaction and workflow efficiency.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/Drag-and-drop-feature"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>    
+                </div>
+                <div id="python">
+                    <div class="card">
+                        <img class="py-images" src="assets/images/whatsapp spammer.png">
+                        <h4>Whatsapp spammer</h4>
+                        <p class="projects-p">A Python WhatsApp Spammer automates sending multiple messages to a WhatsApp contact.It's typically used for pranks.</p>
+                        <div class="button-container-1">
+                            <a target="_blank" href="https://github.com/sai-krishna-raparthi/whatsapp-spammer"><button class="btn view-btn">View</button></a>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="button-container">
+                    <div><img class="control-button" id="previous" src="assets/images/left-arrow.png" alt=""></div>
+                    <div><img class="control-button" id="next" src="assets/images/right-arrow.png" alt=""></div>
+                </div>
+        </div>
+          
+          
+         
+          
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: saikrishnaraparthi7@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: 7036748026</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="b4782d1e-03b0-446e-9b98-5917a27829c0">
+                        <div class="form-inputs">
+                            <input class="input-field" type="text" name="text" placeholder="Name" required>
+                            <input class="input-field" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="messages" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Sai Krishna .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a target="_blank" href="https://www.linkedin.com/in/sai-krishna-raparthi-a5a058234/"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+            <a target="_blank" href="https://github.com/sai-krishna-raparthi"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Sai Krishna</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
